@@ -33,26 +33,24 @@ export default function Contact() {
       icon: Mail,
       title: 'Email',
       value: 'alex.johnson@email.com',
-      link: 'mailto:alex.johnson@email.com'
+      link: 'ramananiainamialy@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+261 34 84 129 99',
+      link: 'tel:+261348412999'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Lot IVB 684 Ambohimanala Andoharanofotsy Tana 102 ',
       link: '#'
     }
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: Linkedin, href: 'https://linkedhttps://www.linkedin.com/in/mialytahiana/in.com', label: 'LinkedIn' },
   ];
 
   return (
@@ -60,7 +58,7 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">
-            Let's Work Together
+            {              "Contactez-moi"}
           </h2>
 
           <div className="grid lg:grid-cols-2 gap-12">
@@ -68,12 +66,10 @@ export default function Contact() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-                  Get In Touch
+                  {"Rencontrons-nous"}
                 </h3>
                 <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                  I'm always interested in new opportunities and exciting projects. 
-                  Whether you want to discuss a potential collaboration or just say hello, 
-                  feel free to reach out!
+                  {"Je suis toujours ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter pour discuter de vos projets ou pour toute question."}
                 </p>
               </div>
 
@@ -97,7 +93,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <h4 className="font-semibold text-gray-900 mb-4">Follow Me</h4>
+                <h4 className="font-semibold text-gray-900 mb-4">{ "Suivez moi"}</h4>
                 <div className="flex space-x-4">
                   {socialLinks.map((social, index) => (
                     <a
