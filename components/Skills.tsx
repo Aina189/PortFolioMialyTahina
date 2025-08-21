@@ -18,7 +18,7 @@ export default function Skills() {
     {
       title: ' Logiciel ERP',
       color: 'bg-orange-100 text-orange-700',
-      skills: ['Git', 'Docker', 'AWS', 'Vercel', 'Webpack', 'Jest', 'CI/CD', 'Linux']
+      skills: ['Navision']
     },
     {
       title: 'logiciel',
