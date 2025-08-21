@@ -32,7 +32,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'alex.johnson@email.com',
+      value: 'ramananiainamialy@gmail.com',
       link: 'ramananiainamialy@gmail.com'
     },
     {

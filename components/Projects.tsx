@@ -30,7 +30,7 @@ export default function Projects() {
     {
       title: "Conception et modélisation de systèmes hydrauliques",
       description:
-        "Réalisation de plans 2D de centrales et circuits hydrauliques. Modélisation 3D de composants hydrauliques pour différents clients.Gestion des relations et communications avec les fournisseurs.",
+        "Réalisation de plans 2D de centrales et circuits hydrauliques.\n Modélisation 3D de composants hydrauliques pour différents clients.\n Gestion des relations et communications avec les fournisseurs.",
       imagePlan: Project2,
       technologies: ["autocad (2d)", " inventor (3d)"],
       github: "https://github.com",
@@ -88,7 +88,7 @@ export default function Projects() {
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">
                       {project.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed whitespace-pre-line">
                       {project.description}
                     </p>
                   </CardHeader>
@@ -105,7 +105,7 @@ export default function Projects() {
                       ))}
                     </div>
                     <div className="flex gap-4">
-                      <Dialog >
+                      <Dialog>
                         <DialogTrigger asChild>
                           <Button className="flex-1">
                             <ExternalLink className="w-4 h-4 mr-2" />
@@ -113,7 +113,11 @@ export default function Projects() {
                           </Button>
                         </DialogTrigger>
                         <DialogContent className="h-1/2 w-full md:w-1/2 flex items-center justify-center bg-slate-900">
-                        <ImageScroller images={project.imagesDetail.map(image => image.src)} />
+                          <ImageScroller
+                            images={project.imagesDetail.map(
+                              (image) => image.src
+                            )}
+                          />
                         </DialogContent>
                       </Dialog>
                     </div>

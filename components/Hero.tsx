@@ -52,7 +52,7 @@ export default function Hero() {
           </div>
 
           <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            {"Je suis un genie industriel , speciliser dans le modelisation 3D"}
+            {"Je suis ingénieur industriel, spécialisé dans la modélisation 3D"}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
