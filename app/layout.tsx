@@ -5,10 +5,10 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Alex Johnson - Full Stack Developer Portfolio',
-  description: 'Passionate Full Stack Developer creating beautiful, functional web applications with modern technologies.',
-  keywords: 'web developer, full stack developer, react, next.js, node.js, portfolio',
-  authors: [{ name: 'Alex Johnson' }],
+  title: 'Mialy Tahiana - Industrial Engineer',
+  description: 'Industrial Engineer with expertise in mechanical design and project management.',
+  keywords: 'industrial engineering, mechanical design, project management, skills, technologies',
+  authors: [{ name: 'Mialy tahiana' }],
   viewport: 'width=device-width, initial-scale=1',
 };
 
