@@ -6,24 +6,24 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 export default function Skills() {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Conception 2D et 3D ',
       color: 'bg-blue-100 text-blue-700',
-      skills: ['React', 'Next.js', 'Vue.js', 'TypeScript', 'Tailwind CSS', 'HTML5', 'CSS3', 'JavaScript ES6+']
+      skills: ["AutoCad", "SolidWork", "Inventor"]
     },
     {
-      title: 'Backend',
+      title: 'Topographie et de génie civil',
       color: 'bg-emerald-100 text-emerald-700',
-      skills: ['Node.js', 'Express.js', 'Python', 'FastAPI', 'PostgreSQL', 'MongoDB', 'Redis', 'GraphQL']
+      skills: ["Covadis"]
     },
     {
-      title: 'Tools & DevOps',
+      title: ' Logiciel ERP',
       color: 'bg-orange-100 text-orange-700',
       skills: ['Git', 'Docker', 'AWS', 'Vercel', 'Webpack', 'Jest', 'CI/CD', 'Linux']
     },
     {
-      title: 'Design',
+      title: 'logiciel',
       color: 'bg-purple-100 text-purple-700',
-      skills: ['Figma', 'UI/UX', 'Responsive Design', 'Accessibility', 'Design Systems', 'Prototyping']
+      skills: ["Word", "Excel", "PowerPoint"]
     }
   ];
 
@@ -62,12 +62,10 @@ export default function Skills() {
 
           <div className="mt-16 text-center">
             <h3 className="text-2xl font-semibold text-gray-900 mb-8">
-              Always Learning
+              {"Continuer d'apprendre et d'évoluer"}
             </h3>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              Technology evolves rapidly, and I'm committed to staying current with the latest trends 
-              and best practices. Currently exploring AI/ML integration, Web3 technologies, and 
-              advanced cloud architecture patterns.
+              {"Je suis toujours à la recherche de nouvelles opportunités pour apprendre et me perfectionner dans le domaine de la conception et de l'ingénierie. Mon objectif est de rester à jour avec les dernières technologies et méthodologies pour offrir des solutions innovantes et efficaces."}
             </p>
           </div>
         </div>
