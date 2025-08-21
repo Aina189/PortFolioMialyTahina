@@ -34,7 +34,7 @@ export default function About() {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">
-            A props de moi
+            A propos de moi
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">

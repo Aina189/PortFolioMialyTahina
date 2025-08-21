@@ -6,7 +6,10 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Project1 from "../public/assets/planDelevation.webp";
+import ContentP1 from "../public/assets/Dispositiondesequipementsréalisé.webp";
 import Project2 from "../public/assets/Schémahydrauliqueréalisé.webp";
+import ContentP2 from "../public/assets/blocforéréalisé.webp";
+import ContentP22 from "../public/assets/exemple-de-bloc-foré-2réalisé.webp";
 import { Dialog } from "@radix-ui/react-dialog";
 import { DialogContent, DialogTrigger } from "./ui/dialog";
 import { useState, useRef } from "react";
@@ -25,7 +28,7 @@ export default function Projects() {
       github: "https://github.com",
       live: "https://example.com",
       featured: true,
-      imagesDetail: [Project1, Project2],
+      imagesDetail: [Project1, ContentP1],
     },
     {
       title: "Conception et modélisation de systèmes hydrauliques",
@@ -36,7 +39,7 @@ export default function Projects() {
       github: "https://github.com",
       live: "https://example.com",
       featured: true,
-      imagesDetail: [],
+      imagesDetail: [Project2, ContentP2, ContentP22],
     },
   ];
 
@@ -112,7 +115,7 @@ export default function Projects() {
                             Detail image
                           </Button>
                         </DialogTrigger>
-                        <DialogContent className="h-1/2 w-full md:w-1/2 flex items-center justify-center bg-slate-900">
+                        <DialogContent className="h-full md:h-5/6 w-full md:w-4/5 flex items-center justify-center bg-slate-900">
                           <ImageScroller
                             images={project.imagesDetail.map(
                               (image) => image.src
